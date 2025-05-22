@@ -1,5 +1,5 @@
 # The Backend
-The backend for Terraining is built entirely in Kotlin with the Ktor library to handle HTTP requests and Websocket connections. It has the role of managing accounts and the exchange of files between the sender and runner clients. The most important file, which is used for routing, is the `Routing.kt` file located in `/src/main/kotlin/gcittsasd/api/plugins/Routing.kt`.
+The backend for Terraining is built entirely in Kotlin on OpenJDK 19 with the Ktor library to handle HTTP requests and Websocket connections. It has the role of managing accounts and the exchange of files between the sender and runner clients. The most important file, which is used for routing, is the `Routing.kt` file located in `/src/main/kotlin/gcittsasd/api/plugins/Routing.kt`.
 
 ## The accounts system
 The accounts are stored and managed with Airtable, an easy to interact database that stores items in a basic excel spreadsheet-like system. It is interacted with using simple REST API methods to make, get, update, and delete records.
